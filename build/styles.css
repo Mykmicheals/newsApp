@@ -1,0 +1,100 @@
+header{
+
+   display: flex;
+   justify-content: space-between;
+   background-color: rgb(10, 6, 6);
+   color: wheat;
+}
+#logo{
+padding-left: 5%;
+margin-top: 5px;
+}
+#head{  
+    margin-top: 0;
+      display: flex;
+   justify-content: space-between;
+   
+}
+
+#head li{
+    margin: 15px;  
+    list-style: none;
+    text-transform: capitalize;
+}
+
+#head li:hover{
+    background-color: rgb(167, 159, 145);
+    cursor: pointer;
+    padding: 0;
+}
+
+
+
+button{
+    width: 30px;
+}
+
+
+.f-section{
+    width: 80%;
+    margin: auto;
+     height: 40rem;
+     margin-top: 2rem;
+}
+
+.s-section{
+ text-align: center;
+    width: 50%;
+    margin: auto;
+    height: 40rem;
+}
+
+
+
+.container{
+     width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+  margin: auto;
+   
+}
+
+
+.container ul{
+    text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: auto;
+  justify-content: center;
+    justify-content: space-between;
+  
+}
+
+
+.card img{
+   
+    margin-bottom: 20px;
+  
+}
+
+.container li{
+ box-sizing: border-box;
+overflow: hidden;
+justify-content: center;
+width: 100%;
+padding: 30px;
+}
+
+.card{
+    height: 300px;
+    border: none;
+    text-align: left;
+   transition: transform 1s ease-in-out
+}
+
+.card:hover{
+    cursor: pointer;
+    transform:scale(1.09)
+}
+
